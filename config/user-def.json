@@ -1,0 +1,13 @@
+{
+    "Username": "PRM_Account_Tester@sfdx.org",
+    "LastName": "PRM Account Manager User",
+    "Email": "jtimbrook@salesforce.com",
+    "Alias": "PRMUsr",
+    "TimeZoneSidKey": "America/New_York",
+    "LocaleSidKey": "en_US",
+    "EmailEncodingKey": "UTF-8",
+    "LanguageLocaleKey": "en_US",
+    "profileName": "Standard User",
+    "permsets": [],
+    "generatePassword": false
+}
