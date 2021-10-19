@@ -1,13 +1,114 @@
-{
-  "orgName": "jtimbrook company",
+{ 
+  "orgName": "CIO PRM",
   "edition": "Developer",
-  "features": ["EnableSetPasswordInApi"],
+  "features": [
+    "cloudtocloud",
+    "communities",
+    "contactstomultipleaccounts",
+    "contractapprovals",
+    "crmuser",
+    "custobjchangeowneremail",
+    "DefaultWorkflowUser",
+    "einsteinbuilderfree",
+    "einsteinsearch",
+    "enablesetpasswordinapi",
+    "entitlements",
+    "eventlogfile",
+    "fieldaudittrail",
+    "flowsites",
+    "forcecomplatform",
+    "insightsadminanalyticsapp",
+    "interaction",
+    "knowledge",
+    "lexanywherealertspanel",
+    "lightningdomainspropagated",
+    "liveagent",
+    "macros",
+    "marketinguser",
+    "mobileuser",
+    "offlineuser",
+    "platformencryption",
+    "s2xallowaftereos",
+    "salesconsoleuser",
+    "salesforcecontentuser",
+    "servicecloud",
+    "SocialCustomerService",
+    "sfoallowaftereol",
+    "sharedactivities",
+    "SocialCustomerService",
+    "DeferSharingCalc",
+    "visitsinglemultiselect"
+  ],
   "settings": {
-    "lightningExperienceSettings": {
-      "enableS1DesktopEnabled": true
+        "actionsSettings": {
+      "enableThirdPartyActions": true
+  },
+  "accountSettings" : {
+    "enableRelateContactToMultipleAccounts" : true
+  },
+   
+    "analyticsSettings": {
+      "enableDashboardComponentSnapshot": true,
+      "enableRemoveFooterFromRepExp": true
     },
-    "mobileSettings": {
-      "enableS1EncryptedStoragePref2": false
+    "chatterSettings": {
+      "enableInviteCsnUsers": true,
+      "unlistedGroupsEnabled": true
+    },
+    "emailAdministrationSettings": {
+      "enableEmailSenderIdCompliance": true,
+      "enableEmailToSalesforce": true,
+      "enableSendViaExchangePref": true
+    },
+    "emailIntegrationSettings": {
+      "doesGmailStayConnectedToSalesforce": true,
+      "enableOutlookIntegration": true
+    },
+    "enhancedNotesSettings": {
+      "enableEnhancedNotes": true
+    },
+    "flowSettings": {
+      "doesFormulaEnforceDataAccess": true,
+      "enableFlowFieldFilterEnabled": true,
+      "isAccessToInvokedApexRequired": true
+    },
+    "forecastingSettings": {
+      "enableForecasts": true
+    },
+    "leadConfigSettings": {
+      "enableOrgWideMergeAndDelete": true
+    },
+    "lightningExperienceSettings": {
+      "enableS1DesktopEnabled": true,
+      "enableUsersAreLightningOnly": true
+    },
+    "nameSettings": {
+      "enableMiddleName": true,
+      "enableNameSuffix": true
+    },
+    "pathAssistantSettings": {
+      "canOverrideAutoPathCollapseWithUserPref": true,
+      "pathAssistantEnabled": true
+    },
+    "quoteSettings": {
+      "enableQuote": true
+    },
+    "securitySettings": {
+      "enableAdminLoginAsAnyUser": true,
+      "sessionSettings": {
+        "requireHttps": true
+      }
+    },
+    "sharingSettings": {
+      "enableCommunityUserVisibility": true,
+      "enablePortalUserVisibility": true
+    },
+    "userEngagementSettings": {
+      "enableScheduledSwitcher": true
+    },
+    "userInterfaceSettings": {
+      "enableCollapsibleSideBar": true,
+      "enableProfileCustomTabsets": true
     }
   }
 }
